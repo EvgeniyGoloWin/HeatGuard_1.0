@@ -1,0 +1,30 @@
+.header-container {
+    padding: 40px 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_link {
+    margin-left: 20px;
+}
+
+.logo {
+    width: 250px;
+    height: 140px;
+}
+
+.title {
+    text-align: center;
+}
+
+.slate {
+    width: 70%;
+    height: 500px;
+}
+
+.slate-text {
+    text-align: center;
+}
