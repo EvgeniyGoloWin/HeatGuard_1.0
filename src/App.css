@@ -8,6 +8,10 @@
 }
 
 .header_link {
+    font-family: SofiaSansCondensed-VariableFont_wght;
+    font-weight:initial;
+    color: black;
+    text-decoration: none;
     margin-left: 20px;
 }
 
@@ -17,14 +21,131 @@
 }
 
 .title {
+    font-family: SofiaSansCondensed-VariableFont_wght;
+    font-size: 60px;
     text-align: center;
 }
 
-.slate {
-    width: 70%;
-    height: 500px;
+.slate-photo {
+    display: grid;
+    justify-content: end;
+    margin-bottom: 40px;
 }
 
 .slate-text {
+    font-family: SofiaSansCondensed-VariableFont_wght;
     text-align: center;
+    font-size: 62px;
+    font-weight: 500;
 }
+
+.david-text {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.block-technology {
+    margin: 80px 75px;
+}
+
+.title-text {
+    font-family: SofiaSansCondensed-VariableFont_wght;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.description-text {
+    font-family: Poppins-Light;
+    line-height: 1.5;
+    font-size: small;
+    padding: 20px;
+}
+
+.wrapper-section {
+    display: flex;
+    flex: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section {
+    display: flex;
+    max-width: 70%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e0e9f1;
+    padding: 40px;
+}
+
+.hot-photo {
+    width: 800px;
+    height: 300px;
+}
+
+.wrapper-section_2 {
+    padding-top: 75px;
+}
+
+.section_2 {
+    /*padding: 40px;*/
+    display: flex;
+    align-items: center;
+}
+
+.content-left {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Подстройте отступ по мере необходимости */
+    word-wrap: break-word;
+    max-width: 1005px;
+}
+
+.content-right {
+    flex: 1 1 auto;
+    margin-left: 100px;
+    margin-right: 300px;
+
+}
+
+.test-text {
+    font-family: SofiaSansCondensed-VariableFont_wght;
+    font-size: larger;
+    padding: 20px;
+}
+
+.wrapper-section_3 {
+    display: flex;
+    padding-top: 75px;
+    justify-content: flex-end;
+}
+
+.section_3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e0e9f1;
+    max-width: 70%;
+    padding: 80px;
+}
+
+.battery-photo {
+    width: 900px;
+    height: 440px;
+}
+
+.section_4 {
+    display: flex;
+    margin: 80px;
+    align-items: center;
+}
+
+/*.book-photo {*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*}*/
+
+.wrapper-section_4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
