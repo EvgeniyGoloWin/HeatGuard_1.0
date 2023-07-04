@@ -1,3 +1,9 @@
+.App {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .header-container {
     padding: 40px 40px;
 }
@@ -52,14 +58,15 @@
     font-family: SofiaSansCondensed-VariableFont_wght;
     font-size: 25px;
     font-weight: 500;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .description-text {
+    max-width: 900px;
     font-family: Poppins-Light;
     line-height: 1.5;
     font-size: small;
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .wrapper-section {
@@ -70,8 +77,9 @@
 }
 
 .section {
-    display: flex;
-    max-width: 70%;
+    width: 100%;
+    display: grid;
+    max-width: 80%;
     justify-content: center;
     flex-direction: column;
     background-color: #e0e9f1;
@@ -79,8 +87,7 @@
 }
 
 .hot-photo {
-    width: 800px;
-    height: 300px;
+    width: 900px;
 }
 
 .wrapper-section_2 {
@@ -88,16 +95,14 @@
 }
 
 .section_2 {
+    width: 100%;
     /*padding: 40px;*/
     display: flex;
     align-items: center;
 }
 
 .content-left {
-    flex: 0 0 auto;
     margin-right: 20px; /* Подстройте отступ по мере необходимости */
-    word-wrap: break-word;
-    max-width: 1005px;
 }
 
 .content-right {
@@ -110,7 +115,7 @@
 .test-text {
     font-family: SofiaSansCondensed-VariableFont_wght;
     font-size: larger;
-    padding: 20px;
+    /*padding: 20px 0;*/
 }
 
 .wrapper-section_3 {
@@ -120,11 +125,12 @@
 }
 
 .section_3 {
-    display: flex;
+    width: 100%;
+    display: grid;
     justify-content: center;
     flex-direction: column;
     background-color: #e0e9f1;
-    max-width: 70%;
+    max-width: 80%;
     padding: 80px;
 }
 
@@ -133,19 +139,93 @@
     height: 440px;
 }
 
-.section_4 {
-    display: flex;
-    margin: 80px;
-    align-items: center;
-}
-
-/*.book-photo {*/
-/*    width: 500px;*/
-/*    height: 500px;*/
-/*}*/
-
 .wrapper-section_4 {
+    display: flex;
+    justify-content: flex-end;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.section_4 {
+    max-width: 90%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+}
+
+.book-photo {
+    width: 500px;
+    /*height: 500px;*/
+}
+
+.wrapper-section_5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section_5 {
+    width: 100%;
+    display: flex;
+    max-width: 80%;
+    flex-direction: column;
+    background-color: #f1cdc5;
+    padding: 40px;
+}
+
+.title-text-footer {
+    font-family: SofiaSansCondensed-VariableFont_wght;
+    font-size: 90px;
+    text-align: center;
+}
+
+.title-text-footer_2 {
+    font-family: SofiaSansCondensed-VariableFont_wght;
+    font-size: 90px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.description-text-footer {
+    font-family: SofiaSansCondensed-VariableFont_wght;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.test {
+    display: flex;
+    margin-left: 90px;
+}
+
+.email-text {
+    font-weight: bold;
+    font-family:SofiaSansCondensed-VariableFont_wght;
+}
+
+.phone-text {
+    font-weight: bold;
+    margin-top: 10px;
+    font-family:SofiaSansCondensed-VariableFont_wght;
+}
+
+.company-info-text {
+    font-family:SofiaSansCondensed-VariableFont_wght;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.content-right-photo {
+
+}
+
 

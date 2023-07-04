@@ -126,11 +126,36 @@ export function App() {
                         <p className='test-text '>Arpad Maksay </p>
                         <p className='description-text'>In charge of Distribution, Marketing & Sales. </p>
                     </div>
-                    <div className='content-right'>
+                    <div className='content-right-photo'>
                         <img className='book-photo' src={book2} alt='book'/>
                     </div>
                 </div>
             </div>
+            <div className='wrapper-section_5'>
+                <div className="section_5">
+                    <p className='title-text-footer'>Reduce energy costs this winter</p>
+                    <div className='test'>
+                        <p className='title-text-footer_2'>Get in touch</p>
+                        <div className='description-text-footer'><p className='email-text'>Email:</p>
+                            <p> info@heatguard.io</p>
+                            <p className='phone-text'>Phone:</p>
+                            <p> +4560213269</p>
+                            <p className='company-info-text'>Company Info:</p>
+                            <p> HeatGuard</p>
+                            <p> Nomad Workspace</p>
+                            <p> Blegdamsvej 6</p>
+                            <p> 2200 Copenhagen N</p>
+                            <p> Denmark</p>
+                            <p> VAT:xxxxxxxxxxxx</p></div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div className='footer'>
+                    <p className='header_link'>© 2023</p>
+                    <a className='header_link' href="https://INFO@HEATGUARD.IO">INFO@HEATGUARD.IO</a>
+                </div>
+            </footer>
         </div>
     );
 }
