@@ -219,7 +219,7 @@
 }
 
 .company-info-text {
-    font-family:SofiaSansCondensed-VariableFont_wght;
+    font-family: SofiaSansCondensed-VariableFont_wght;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -228,4 +228,209 @@
 
 }
 
+/* Стили для ноутбука */
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .slate-text {
+        width: 99%;
+    }
+
+    .header_link {
+        margin-top: 0;
+    }
+
+    .block-technology {
+        margin: 40px 75px
+    }
+
+    /*.title-text {*/
+    /*    text-align: center;*/
+    /*}*/
+    .content-right {
+        justify-items: center;
+        margin: 20px;
+    }
+
+    .wrapper-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section {
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .hot-photo {
+        width: 100%;
+    }
+
+    .wrapper-section_2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .section_2 {
+        align-items: center;
+        justify-items: center;
+    }
+
+    .content-left {
+        margin-right: 20px;
+    }
+
+    .book-photo {
+        width: 400px;
+    }
+
+    .section_3 {
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    .section_4 {
+        padding: 0;
+    }
+
+    .title-text-footer {
+        font-size: 60px;
+    }
+
+    .title-text-footer_2 {
+        font-size: 60px;
+    }
+}
+
+
+/* Стили для телефона */
+@media (max-width: 375px) {
+
+    .header {
+        flex-direction:column ;
+    }
+
+    .slate-photo {
+        justify-content: center;
+    }
+
+    .slate {
+        width: 375px;
+        height: 375px;
+    }
+
+    .title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .slate-text {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .block-technology {
+        padding: 0;
+        margin: 45px
+    }
+
+    .wrapper-section {
+        width: 100%;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .hot-photo {
+        margin-bottom: 20px;
+    }
+
+    .wrapper-section_2 {
+    }
+
+    .section_2 {
+        flex-direction: column;
+    }
+
+    .content-right {
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section_3 {
+        max-width: 360px;
+        padding: 40px;
+    }
+
+    .content-left {
+        margin-bottom: 20px;
+    }
+
+    .title-text {
+        text-align: center;
+    }
+
+    .test-text {
+    }
+
+    .description-text {
+        max-width: 360px;
+        text-align: start;
+    }
+
+    .battery-photo {
+        width: 300px;
+        height: 214px;
+    }
+
+    .section_4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .book-photo {
+        display: none;
+    }
+
+    .section_5 {
+        width: 100%;
+        text-align: center;
+        padding: 37px;
+    }
+
+    .title-text-footer {
+        font-size: 28px;
+        text-align: inherit;
+    }
+
+    .title-text-footer_2 {
+        font-size: 28px;
+        text-align: initial;
+    }
+
+    .description-text-footer {
+        font-size: 17px;
+        text-align: initial;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .wrapper-section_5 {
+        width: 100%;
+    }
+
+    .test {
+        flex-direction: column;
+    }
+}
 
