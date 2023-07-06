@@ -39,7 +39,7 @@ export function App() {
                     annually.</p>
             </div>
             <div className='wrapper-section'>
-                <div className="section">
+                <section className="section">
                     <p className='title-text'>HOW HEATGUARD WORKS</p>
                     <p className='description-text'>In physics, the second law of thermodynamics shows that hot will
                         move
@@ -51,7 +51,7 @@ export function App() {
                         and into the centre of the room through the creation of manifold vortices as the air flows over
                         the
                         panel surface.</p>
-                </div>
+                </section>
             </div>
             <div className='wrapper-section_2'>
                 <div className='section_2'>
@@ -89,7 +89,7 @@ export function App() {
                 </div>
             </div>
             <div className='wrapper-section_3'>
-                <div className="section_3">
+                <section className="section_3">
                     <p className='title-text'>THE KEY BENEFIT OF HEATGUARD TECHNOLOGY</p>
                     <p className='description-text'>The results from our in situ tests demonstrate the key benefit of
                         HeatGuard technology: water is returned to the boiler at
@@ -97,10 +97,10 @@ export function App() {
                         reduction
                         in heat loss and therefore energy consumption and the corollary carbon emissions</p>
                     <img className='battery-photo' src={battery} alt="battery"/>
-                </div>
+                </section>
             </div>
             <div className='wrapper-section_4'>
-                <div className='section_4'>
+                <section className='section_4'>
                     <div className='content-left'>
                         <p className='title-text'>ABOUT US</p>
                         <p className='test-text '>Doug Tolmer</p>
@@ -129,10 +129,10 @@ export function App() {
                     <div className='content-right-photo'>
                         <img className='book-photo' src={book2} alt='book'/>
                     </div>
-                </div>
+                </section>
             </div>
             <div className='wrapper-section_5'>
-                <div className="section_5">
+                <section className="section_5">
                     <p className='title-text-footer'>Reduce energy costs this winter</p>
                     <div className='test'>
                         <p className='title-text-footer_2'>Get in touch</p>
@@ -148,7 +148,7 @@ export function App() {
                             <p> Denmark</p>
                             <p> VAT:xxxxxxxxxxxx</p></div>
                     </div>
-                </div>
+                </section>
             </div>
             <footer>
                 <div className='footer'>
