@@ -134,12 +134,12 @@ export function App() {
             <div className='wrapper-section_5'>
                 <section className="section_5">
                     <p className='title-text-footer'>Reduce energy costs this winter</p>
-                    <div className='test'>
+                    <div className='section_get'>
                         <p className='title-text-footer_2'>Get in touch</p>
                         <div className='description-text-footer'><p className='email-text'>Email:</p>
-                            <p> info@heatguard.io</p>
+                            <a className='footer_link' href="https://INFO@HEATGUARD.IO"> info@heatguard.io</a>
                             <p className='phone-text'>Phone:</p>
-                            <p> +4560213269</p>
+                            <a className='footer-phone' href="tel:+4560213269">+4560213269</a>
                             <p className='company-info-text'>Company Info:</p>
                             <p> HeatGuard</p>
                             <p> Nomad Workspace</p>
