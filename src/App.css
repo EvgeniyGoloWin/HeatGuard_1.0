@@ -32,6 +32,12 @@
     text-align: center;
 }
 
+.slate {
+    width: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .slate-photo {
     display: grid;
     justify-content: end;
@@ -88,6 +94,7 @@
 
 .hot-photo {
     width: 900px;
+    margin-bottom: 20px;
 }
 
 .wrapper-section_2 {
@@ -163,6 +170,7 @@
 
 .section_5 {
     width: 100%;
+    align-items: center;
     display: flex;
     max-width: 80%;
     flex-direction: column;

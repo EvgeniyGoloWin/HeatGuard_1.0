@@ -1,6 +1,6 @@
 import 'normalize.css';
 import logo from '../src/assets/logo/Heat Guard Logo.png';
-import hot from '../src/assets/img/Infographic spec_1.jpg';
+import hot from '../src/assets/img/Infographic spec_1.png';
 import slate from '../src/assets/img/Image_1.jpg';
 import book from '../src/assets/img/book.png';
 import book2 from '../src/assets/img/book2.png';
@@ -13,7 +13,7 @@ export function App() {
             <header className='header-container'>
                 <div className='header'>
                     <img className='logo' src={logo} alt='logo'/>
-                    <a className='header_link' href="https://INFO@HEATGUARD.IO">INFO@HEATGUARD.IO</a>
+                    {/*<a className='header_link' href="https://INFO@HEATGUARD.IO">INFO@HEATGUARD.IO</a>*/}
                 </div>
             </header>
             <div className='title'>
@@ -146,14 +146,15 @@ export function App() {
                             <p> Blegdamsvej 6</p>
                             <p> 2200 Copenhagen N</p>
                             <p> Denmark</p>
-                            <p> VAT:xxxxxxxxxxxx</p></div>
+                            {/*<p> VAT:xxxxxxxxxxxx</p>*/}
+                        </div>
                     </div>
                 </section>
             </div>
             <footer>
                 <div className='footer'>
                     <p className='header_link'>© 2023</p>
-                    <a className='header_link' href="https://INFO@HEATGUARD.IO">INFO@HEATGUARD.IO</a>
+                    {/*<a className='header_link' href="https://INFO@HEATGUARD.IO">INFO@HEATGUARD.IO</a>*/}
                 </div>
             </footer>
         </div>
