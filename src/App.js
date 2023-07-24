@@ -1,10 +1,10 @@
 import 'normalize.css';
-import logo from '../src/assets/logo/Heat Guard Logo.png';
-import hot from '../src/assets/img/Infographic spec_1.png';
-import slate from '../src/assets/img/Image_1.jpg';
-import book from '../src/assets/img/book.png';
-import book2 from '../src/assets/img/book2.png';
-import battery from '../src/assets/img/Infographic spec_2.jpg';
+import logo from './assets/logo/Heat Guard Logo.png';
+import hot from './assets/img/Infographic spec_1.png';
+import slate from './assets/img/Image_1.jpg';
+import book from './assets/img/book.png';
+import book2 from './assets/img/book2.png';
+import battery from './assets/img/Infographic spec_2.jpg';
 import './App.css';
 
 export function App() {
@@ -19,12 +19,13 @@ export function App() {
             <div className='title'>
                 <h1>Enabling the Energy Transition</h1>
             </div>
+            <div className='slate-text'>"IT HAS LONG BEEN KNOWN...</div>
             <div className='slate-photo'>
                 <img className='slate' src={slate} alt='slate'/>
             </div>
             <div className='slate-text'>
                 <p>
-                    "IT HAS LONG BEEN KNOWN THAT THE CHEAPEST AND CLEANEST UNIT OF ENERGY IS THE ONE YOU DON’T NEED TO
+                    THAT THE CHEAPEST AND CLEANEST UNIT OF ENERGY IS THE ONE YOU DON’T NEED TO
                     USE."
                 </p>
                 <p className='david-text'> David Brooks, The Concord Monitor</p>
